@@ -83,7 +83,8 @@ MS Project and Visio.
  
 ## 5.	Preliminary Architecture of ABC University Management System
   
- 
+ ![Drawing 1](https://user-images.githubusercontent.com/57996562/193962526-75ccccfb-7155-4ba7-9b73-06c76290e5f4.jpeg)
+
              Developers			           Signature & Date 
 1.	Yenealem Settegne
 2.	Temesgen Dessalegn
