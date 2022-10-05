@@ -70,7 +70,6 @@ c.	Graduated students per year
 25.	Docker
 
 ## 4.	Roles and responsibilities 
-
 S/N	Developer Position	Developer Skills	Module Name	Development Details
 1.		Java Fullstack Developer, Lead Developer (Yenealem)	Full stack development skills in microservices and deployments, and
 MS Project and Visio.
@@ -80,7 +79,6 @@ MS Project and Visio.
 4.		Tester (Temesgen, Mohammed T., Mohammed M, Bunu, Raymond)	Postman,Junit, Mockito, REST Assure	Administration, authorization and Authentication, payment, student, faculty, registrar, and report 	
 5.		Microservice and deployment developer(Temesgen, Mohammed T., Mohammed M, Bunu, Raymond)	Kafka/RabbitMQ, Hystrix, Google Kubernetes, Eureka server, Spring Cloud, ELK, Docker	 Registry service, Configuration service, ELK service, Zipkin, Spring Contract service, API gateway	
 
- 
 ## 5.	Preliminary Architecture of ABC University Management System
   
  ![Drawing 1](https://user-images.githubusercontent.com/57996562/193962526-75ccccfb-7155-4ba7-9b73-06c76290e5f4.jpeg)
