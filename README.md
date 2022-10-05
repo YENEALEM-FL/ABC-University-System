@@ -1,4 +1,4 @@
-##1.	Scope
+## 1.	Scope
 ABC University is implementing a system that caters educational business domain features.  This system should provide to student, faculty, and registrar to access the system based on role.  Students must be able to apply for courses, Access Materials, Submit Assignments, Take tests, Quizzes and Exams periodically.  The system must generate the Grading report for Professors and for Registrars.  Students can apply online for their grade sheet.  Faculty must be able to assign quizzes, tests, and other homework assignments.  
 The system must be able to provide access to auto generated question papers to the students willing to take self-assessment tests.  The system must cater to login securely and log out when required.   If any professor wants to get a detailed report about a student, then the report must be generated on the fly.   Visa and master card can be used to collect money online.  
 2.	Scope Details
