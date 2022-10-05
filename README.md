@@ -71,8 +71,8 @@ c.	Graduated students per year
 
 ## 4.	Roles and responsibilities 
 
-|S/N |	Developer Position |	Developer Skills |	Module Name	| Development Details
-|1.	 |	Java Fullstack Developer, Lead Developer (Yenealem)	Full stack development skills in microservices and deployments, and MS Project and Visio| Administration, authorization and Authentication, payment, student, faculty, registrar, and report| |	
+|S/N |	Developer Position |	Developer Skills |	Module Name	| Development Details|
+|:-1.	 -:|:-	Java Fullstack Developer, Lead Developer (Yenealem)	Full stack development skills in microservices and deployments, and MS Project and Visio-:|:- Administration, authorization and Authentication, payment, student, faculty, registrar, and report-:|:- --:|	
 2.		Java Backend Senior developer (Temesgen, Mohammed T., Mohammed M, Bunu, Raymond)	Java, Maven,Reports (Jaspar),Spring Boot,JWT,Spring Data JPA, MySQL, Restful / JSON,SMTP, JMS	Administration, authorization and Authentication, payment, student, faculty, registrar, and report	
 3.		Front Senior developer (Temesgen, Mohammed T., Mohammed M, Bunu, Raymond)	React Js, Bootstrap,Javascript, CSS3, HTML5	Administration, authorization and Authentication, payment, student, faculty, registrar, and report 	
 4.		Tester (Temesgen, Mohammed T., Mohammed M, Bunu, Raymond)	Postman,Junit, Mockito, REST Assure	Administration, authorization and Authentication, payment, student, faculty, registrar, and report 	
