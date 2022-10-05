@@ -1,7 +1,7 @@
 ## 1.	Scope
 ABC University is implementing a system that caters educational business domain features.  This system should provide to student, faculty, and registrar to access the system based on role.  Students must be able to apply for courses, Access Materials, Submit Assignments, Take tests, Quizzes and Exams periodically.  The system must generate the Grading report for Professors and for Registrars.  Students can apply online for their grade sheet.  Faculty must be able to assign quizzes, tests, and other homework assignments.  
 The system must be able to provide access to auto generated question papers to the students willing to take self-assessment tests.  The system must cater to login securely and log out when required.   If any professor wants to get a detailed report about a student, then the report must be generated on the fly.   Visa and master card can be used to collect money online.  
-2.	Scope Details
+## 2.	Scope Details
 The system should allow the users to make use of the following modules based on their level of authorization.
 1.	Administration module
 a.	Create and Manage the Students
@@ -42,7 +42,7 @@ a.	Individual student report
 b.	List of students per course 
 c.	Graduated students per year
 
-3.	Technologies
+## 3.	Technologies
 1.	Java
 2.	Maven 
 3.	React 
@@ -69,7 +69,7 @@ c.	Graduated students per year
 24.	REST ASSURE
 25.	Docker
 
-4.	Roles and responsibilities 
+## 4.	Roles and responsibilities 
 
 S/N	Developer Position	Developer Skills	Module Name	Development Details
 1.		Java Fullstack Developer, Lead Developer (Yenealem)	Full stack development skills in microservices and deployments, and
@@ -81,7 +81,7 @@ MS Project and Visio.
 5.		Microservice and deployment developer(Temesgen, Mohammed T., Mohammed M, Bunu, Raymond)	Kafka/RabbitMQ, Hystrix, Google Kubernetes, Eureka server, Spring Cloud, ELK, Docker	 Registry service, Configuration service, ELK service, Zipkin, Spring Contract service, API gateway	
 
  
-5.	Preliminary Architecture of ABC University Management System
+## 5.	Preliminary Architecture of ABC University Management System
   
  
              Developers			           Signature & Date 
