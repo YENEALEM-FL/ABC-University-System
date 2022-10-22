@@ -1,8 +1,7 @@
-package repository;
+package com.Abcuniversity.PaymentSRV.repository;
 
-import entity.Course;
+import com.Abcuniversity.PaymentSRV.entity.Course;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository

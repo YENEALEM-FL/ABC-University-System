@@ -1,7 +1,7 @@
-package entity;
+package com.Abcuniversity.PaymentSRV.entity;
 
-import enums.CardType;
-import enums.Status;
+import com.Abcuniversity.PaymentSRV.enums.CardType;
+import com.Abcuniversity.PaymentSRV.enums.Status;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -23,7 +23,7 @@ public class Payment {
     private Long payment_id;
     private Timestamp payment_date ;
     private CardType card_type;
-    private enums.Status payment_status;
+    private Status payment_status;
     private String status;
 
 }

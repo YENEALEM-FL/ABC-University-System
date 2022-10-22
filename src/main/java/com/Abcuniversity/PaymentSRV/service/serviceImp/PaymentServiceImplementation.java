@@ -1,21 +1,23 @@
-package service.serviceImp;
+package com.Abcuniversity.PaymentSRV.service.serviceImp;
 
-import entity.Card;
-import entity.Payment;
-import enums.CardType;
+import com.Abcuniversity.PaymentSRV.entity.Card;
+import com.Abcuniversity.PaymentSRV.entity.Payment;
+import com.Abcuniversity.PaymentSRV.repository.CardRepositroy;
+import com.Abcuniversity.PaymentSRV.repository.PaymentRepository;
+import com.Abcuniversity.PaymentSRV.service.IPaymentService;
+import com.Abcuniversity.PaymentSRV.enums.CardType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.CardRepositroy;
-import repository.PaymentRepository;
-import service.IPaymentService;
+
 @Service
 public class PaymentServiceImplementation implements IPaymentService {
     @Autowired
     private CardRepositroy cardRepositroy;
+    @Autowired
     private PaymentRepository paymentRepository;
 
     @Override
-    public  Card save(Card card){
+    public Card save(Card card){
 
         return cardRepositroy.save(card);
     }

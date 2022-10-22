@@ -1,6 +1,6 @@
-package repository;
+package com.Abcuniversity.PaymentSRV.repository;
 
-import entity.Transcript;
+import com.Abcuniversity.PaymentSRV.entity.Transcript;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

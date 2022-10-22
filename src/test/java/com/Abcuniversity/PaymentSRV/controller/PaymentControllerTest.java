@@ -1,9 +1,8 @@
 package com.Abcuniversity.PaymentSRV.controller;
 
 
-import controller.PaymentController;
-import entity.Card;
-import enums.CardType;
+import com.Abcuniversity.PaymentSRV.entity.Card;
+import com.Abcuniversity.PaymentSRV.enums.CardType;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -11,11 +10,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
-import service.serviceImp.PaymentServiceImplementation;
+import com.Abcuniversity.PaymentSRV.service.serviceImp.PaymentServiceImplementation;
 
 import java.io.IOException;
-import java.time.LocalDate;
-import java.util.ArrayList;
 
 @ContextConfiguration(classes = {PaymentController.class})
 @ExtendWith(SpringExtension.class)

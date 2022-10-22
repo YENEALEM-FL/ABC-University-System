@@ -1,4 +1,4 @@
-package entity;
+package com.Abcuniversity.PaymentSRV.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,14 +1,12 @@
-package entity;
+package com.Abcuniversity.PaymentSRV.entity;
 
-import enums.CardType;
+import com.Abcuniversity.PaymentSRV.enums.CardType;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
-import java.sql.Timestamp;
-import java.util.Set;
 
 @Entity
 @Getter

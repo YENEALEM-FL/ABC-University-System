@@ -1,4 +1,4 @@
-package enums;
+package com.Abcuniversity.PaymentSRV.enums;
 
 public enum Status {
     PAID, UNPAID, PENDING;
