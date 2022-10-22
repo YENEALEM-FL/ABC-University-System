@@ -16,6 +16,11 @@ public interface PaymentRepository extends JpaRepository<Payment, Long> {
     @Modifying
     @Query(value = "insert into payment (card_type,payment_date, payment_status, status) values (:card_type, :payment_date,:payment_status ,:status) ", nativeQuery = true)
     void save(String card_type, Timestamp payment_date, Status payment_status, String status);
-
+    /*{
+        "card_type": "VISA",
+            "payment_date": "2022-10-22",
+            "payment_status": "PAID",
+            "status": "DONE"
+    }*/
 
 }

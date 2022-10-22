@@ -26,8 +26,8 @@ public class PaymentController {
         return "Greetings from ABC university!";
     }
 
-    @PostMapping("/addCard")
-    public ResponseEntity<Card> saveCard(long l, @RequestBody Card card) throws IOException{
+    @PostMapping(value="/addCard/{l}", consumes = "application/json")
+    public ResponseEntity<Card> saveCard(@PathVariable long l, @RequestBody Card card) throws IOException{
         return new ResponseEntity<>(paymentService.save(card), HttpStatus.OK);
     }
     @PostMapping(value = "/payment", consumes = "application/json")

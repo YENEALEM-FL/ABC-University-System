@@ -10,4 +10,11 @@ import org.springframework.stereotype.Repository;
 public interface CardRepositroy extends JpaRepository<Card, Long> {
     @Query(value = "insert into Card (number, expiration, name , type , status) values (:number, :expiration,:name , :type , :status) ", nativeQuery = true)
     void save(Long number, Long expiration, String name, CardType type, String status);
+    /*{
+        "number": "123456789101",
+            "expiration": "0924",
+            "name": "ABC",
+            "type": "VISA",
+            "status":"ON"
+    }*/
 }
