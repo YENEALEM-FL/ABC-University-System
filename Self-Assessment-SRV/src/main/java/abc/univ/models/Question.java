@@ -5,7 +5,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import java.util.List;
 
 @Entity
 @Data
@@ -21,7 +20,7 @@ public class Question {
     private String subcategory;
     private int points;
     private String correctAnswer;
-
-    @ElementCollection
-    private List<String> incorrectAnswers;
+    private String incorrectAnswer1;
+    private String incorrectAnswer2;
+    private String incorrectAnswer3;
 }
