@@ -66,8 +66,7 @@ c.	Graduated students per year
 21.	ELK 
 22.	Junit 
 23.	Mockito
-24.	REST ASSURE
-25.	Docker
+24.	Docker
 
 ## 4.	Roles and responsibilities 
 
